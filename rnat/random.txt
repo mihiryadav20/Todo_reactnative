@@ -1,0 +1,6 @@
+<FlatList
+        data={todos}
+        renderItems={({item})=>(
+          <Text>{item.text}</Text>
+        ) }
+      />
